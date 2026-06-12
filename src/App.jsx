@@ -26,13 +26,10 @@ function Icon({ type }) {
   if (type === "pray") {
     return (
       <svg {...common}>
-        <path d="M8.5 21 6 18.5c-1.3-1.3-2-3.1-2-4.9V7.5A1.5 1.5 0 0 1 5.5 6 1.5 1.5 0 0 1 7 7.5v5.2" />
-        <path d="M7 12.7V5.5A1.5 1.5 0 0 1 8.5 4 1.5 1.5 0 0 1 10 5.5V14" />
-        <path d="M10 14V4.5A1.5 1.5 0 0 1 11.5 3 1.5 1.5 0 0 1 13 4.5V14" />
-        <path d="M15.5 21 18 18.5c1.3-1.3 2-3.1 2-4.9V7.5A1.5 1.5 0 0 0 18.5 6 1.5 1.5 0 0 0 17 7.5v5.2" />
-        <path d="M17 12.7V5.5A1.5 1.5 0 0 0 15.5 4 1.5 1.5 0 0 0 14 5.5V14" />
-        <path d="M14 14V4.5A1.5 1.5 0 0 0 12.5 3 1.5 1.5 0 0 0 11 4.5V14" />
-        <path d="M10 14l2 2 2-2" />
+        <path d="M12 4.5v10.8" />
+        <path d="M12 4.5c-2 1.4-3.4 3.7-3.4 6.3v4.6l-2.4-1.9a1.7 1.7 0 0 0-2.7 1.1c-.1.8.1 1.5.6 2.1L8.4 21" />
+        <path d="M12 4.5c2 1.4 3.4 3.7 3.4 6.3v4.6l2.4-1.9a1.7 1.7 0 0 1 2.7 1.1c.1.8-.1 1.5-.6 2.1L15.6 21" />
+        <path d="M8.4 21h7.2" />
       </svg>
     );
   }
@@ -117,7 +114,24 @@ export default function App() {
   return (
     <main className="page">
       <section className="hero">
-        <div className="dove">🕊️</div>
+        <div className="dove-badge">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path
+              d="M48.5 19.5c-7.4.9-13.5 4-18.2 9.2-2.4-4.2-6.2-7-11.4-8.4 2.5 5.1 5.8 8.8 10 11.2-4.3 4.4-8.8 8-13.6 10.9 9.7-.7 18.1-4.2 25.1-10.7 4.1-3.8 6.8-7.9 8.1-12.2Z"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M28.8 30.5c-3.5 1-6.5 2.6-9 4.8 3.5-.3 6.9-1.3 10.1-3"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
         <div className="wordmark">LIFT</div>
         <div className="tagline">LOG IT FOR TRANSFORMATION</div>
 

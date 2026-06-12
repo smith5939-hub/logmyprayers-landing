@@ -47,11 +47,24 @@ a {
   min-height: 640px;
 }
 
-.dove {
-  font-size: 64px;
-  line-height: 1;
-  margin-bottom: 12px;
-  filter: drop-shadow(0 8px 18px rgba(92, 128, 104, 0.14));
+.dove-badge {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #ece6dc;
+  box-shadow: 0 10px 24px rgba(44, 44, 44, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2c2c2c;
+}
+
+.dove-badge svg {
+  width: 46px;
+  height: 46px;
+  display: block;
 }
 
 .wordmark {
