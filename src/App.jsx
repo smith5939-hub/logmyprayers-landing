@@ -1,4 +1,5 @@
 import { PiHandsPrayingBold } from "react-icons/pi";
+import { FaDove } from "react-icons/fa";
 import "./App.css";
 
 const APP_URL = "https://logmyprayers.app";
@@ -109,22 +110,7 @@ export default function App() {
     <main className="page">
       <section className="hero">
         <div className="dove-badge">
-          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <path
-              d="M48.5 19.5c-7.4.9-13.5 4-18.2 9.2-2.4-4.2-6.2-7-11.4-8.4 2.5 5.1 5.8 8.8 10 11.2-4.3 4.4-8.8 8-13.6 10.9 9.7-.7 18.1-4.2 25.1-10.7 4.1-3.8 6.8-7.9 8.1-12.2Z"
-              stroke="currentColor"
-              strokeWidth="2.2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M28.8 30.5c-3.5 1-6.5 2.6-9 4.8 3.5-.3 6.9-1.3 10.1-3"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+          <FaDove className="hero-dove-icon" aria-hidden="true" />
         </div>
         <div className="wordmark">LIFT</div>
         <div className="tagline">LOG IT FOR TRANSFORMATION</div>
