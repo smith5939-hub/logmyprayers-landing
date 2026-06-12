@@ -379,3 +379,12 @@ footer span {
   height: 50px;
   display: block;
 }
+
+
+.hero-dove-icon {
+  width: 48px;
+  height: 48px;
+  color: #2c2c2c;
+  display: block;
+  transform: rotate(-8deg);
+}
