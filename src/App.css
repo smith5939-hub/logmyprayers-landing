@@ -372,3 +372,10 @@ footer span {
     min-height: 58px;
   }
 }
+
+
+.pray-hands-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+}

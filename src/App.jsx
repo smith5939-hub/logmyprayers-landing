@@ -1,3 +1,4 @@
+import { PiHandsPrayingBold } from "react-icons/pi";
 import "./App.css";
 
 const APP_URL = "https://logmyprayers.app";
@@ -24,16 +25,7 @@ function Icon({ type }) {
   };
 
   if (type === "pray") {
-    return (
-      <svg {...common} viewBox="0 0 24 24">
-        <path d="M8.1 20.2 4.2 16.6l2.4-2.3 3.1 2.8" />
-        <path d="M15.9 20.2l3.9-3.6-2.4-2.3-3.1 2.8" />
-        <path d="M9.7 17.6 8.3 9.4c-.2-1.2 0-2.4.7-3.5l1.6-2.6c.3-.5.8-.8 1.4-.8s1.1.3 1.4.8L15 5.9c.7 1.1.9 2.3.7 3.5l-1.4 8.2" />
-        <path d="M12 3.1v13.2" />
-        <path d="M10.3 6.7v5.8" />
-        <path d="M13.7 6.7v5.8" />
-      </svg>
-    );
+    return <PiHandsPrayingBold className="pray-hands-icon" aria-hidden="true" />;
   }
 
   if (type === "reflect") {
