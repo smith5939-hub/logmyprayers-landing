@@ -109,10 +109,11 @@ export default function App() {
   return (
     <main className="page">
       <section className="hero">
-        <div className="dove-badge">
-          <FaDove className="hero-dove-icon" aria-hidden="true" />
-        </div>
-        <div className="wordmark">LIFT</div>
+        <img
+  src="/lift-logo.png"
+  alt="LIFT - Log It For Transformation"
+  className="hero-logo"
+/>
         <div className="tagline">LOG IT FOR TRANSFORMATION</div>
 
         <h1>A quiet place to bring your prayers.</h1>

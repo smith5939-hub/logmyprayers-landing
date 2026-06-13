@@ -43,7 +43,7 @@ a {
   position: relative;
   overflow: hidden;
   text-align: center;
-  padding: 56px 22px 68px;
+  padding: 48px 22px 68px;
   min-height: 640px;
 }
 
@@ -387,4 +387,14 @@ footer span {
   color: #252525;
   display: block;
   transform: rotate(-8deg);
+}
+
+
+.hero-logo {
+  width: clamp(150px, 34vw, 240px);
+  height: auto;
+  display: block;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  filter: drop-shadow(0 14px 32px rgba(44, 44, 44, 0.10));
 }
