@@ -203,6 +203,7 @@ export default function App() {
         <LeafIcon />
         <strong>logmyprayers.com</strong>
         <span>Open the web app anytime.</span>
+        <a href="/privacy" style={{ color: "#666", fontSize: 13, marginTop: 8, display: "block" }}>Privacy Policy</a>
       </footer>
     </main>
   );
