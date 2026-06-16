@@ -1,6 +1,6 @@
 export default function Privacy() {
   return (
-    <div style={{ maxWidth: 800, margin: "0 auto", padding: "60px 24px", fontFamily: "sans-serif", color: "#333", lineHeight: 1.7 }}>
+    <div style={{ maxWidth: 800, margin: "0 auto", padding: "60px 24px", fontFamily: "sans-serif", color: "#333", lineHeight: 1.7, textAlign: "left" }}>
       <h1 style={{ fontSize: 32, marginBottom: 8 }}>Privacy Policy</h1>
       <p style={{ color: "#666", marginBottom: 40 }}>Last updated: June 16, 2026</p>
       <p>This Privacy Policy describes our policies on the collection, use and disclosure of your information when you use LIFT Prayer Journal.</p>
