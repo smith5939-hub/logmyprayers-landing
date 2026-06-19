@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import Privacy from './Privacy.jsx'
+import DeleteAccount from './DeleteAccount.jsx'
 inject()
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/delete-account" element={<DeleteAccount />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
