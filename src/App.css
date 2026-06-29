@@ -398,3 +398,22 @@ footer span {
   border-radius: 50%;
   filter: drop-shadow(0 14px 32px rgba(44, 44, 44, 0.10));
 }
+
+.appstore-badge {
+  display: block;
+  width: min(100%, 240px);
+  margin: 0 auto;
+}
+
+.appstore-badge svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(44, 44, 44, 0.14);
+  transition: transform 0.15s ease;
+}
+
+.appstore-badge:hover svg {
+  transform: translateY(-1px);
+}
