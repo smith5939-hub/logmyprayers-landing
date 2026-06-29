@@ -7,7 +7,7 @@ const APPSTORE_URL = "https://apps.apple.com/app/id6780954227";
 
 function AppStoreBadge() {
   return (
-    
+    <a
       href={APPSTORE_URL}
       target="_blank"
       rel="noopener noreferrer"
